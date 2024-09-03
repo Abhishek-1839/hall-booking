@@ -1,0 +1,29 @@
+{
+  "name": "hall-booking-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhishek-1839/hall-booking.git"
+  },
+  "keywords": [
+    "rooms",
+    "booking"
+  ],
+  "author": "Abhishek Singh Tomar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhishek-1839/hall-booking/issues"
+  },
+  "homepage": "https://github.com/Abhishek-1839/hall-booking#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "vite": "^5.4.2"
+  }
+}
