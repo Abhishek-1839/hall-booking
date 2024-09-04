@@ -18,7 +18,8 @@ const isRoomAvailable = (roomId, date, startTime, endTime) => {
      (startTime <= booking.startTime && endTime >= booking.endTime))
   );
 };
-
+app.get('/', (req, res) => {
+  res.send("Hello");});
 // 1a. Create a Room
 app.post('/rooms', (req, res) => {
   const { seats, amenities, pricePerHour } = req.body;
